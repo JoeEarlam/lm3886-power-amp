@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:power-amp-cache
-EELAYER 29 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -88,7 +88,7 @@ Wire Wire Line
 Wire Wire Line
 	4400 2875 4400 3150
 $Comp
-L custom:R_Small R7
+L power-amp-rescue:R_Small-custom R7
 U 1 1 5CDC3A8A
 P 4400 3275
 F 0 "R7" H 4550 3325 50  0000 R CNN
@@ -112,7 +112,7 @@ F 5 "CGA5L2C0G1H104J160AA" V 3225 3550 50  0001 C CNN "Part Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L custom:R_Small R5
+L power-amp-rescue:R_Small-custom R5
 U 1 1 5CDC4124
 P 3925 2675
 F 0 "R5" V 4050 2650 50  0000 C CNN
@@ -125,7 +125,7 @@ $EndComp
 Wire Wire Line
 	4025 2675 4500 2675
 $Comp
-L custom:R_Small R9
+L power-amp-rescue:R_Small-custom R9
 U 1 1 5CDDD6F2
 P 4950 3150
 F 0 "R9" V 5075 3125 50  0000 C CNN
@@ -153,7 +153,7 @@ Wire Wire Line
 Wire Wire Line
 	5150 3150 5150 2775
 $Comp
-L custom:R_Small R11
+L power-amp-rescue:R_Small-custom R11
 U 1 1 5CDE1752
 P 5350 2775
 F 0 "R11" V 5475 2750 50  0000 C CNN
@@ -212,7 +212,7 @@ Wire Wire Line
 Wire Wire Line
 	4400 4625 4400 4900
 $Comp
-L custom:R_Small R8
+L power-amp-rescue:R_Small-custom R8
 U 1 1 5CDE2496
 P 4400 5025
 F 0 "R8" H 4550 5075 50  0000 R CNN
@@ -223,7 +223,7 @@ F 3 "" H 4400 5025 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L custom:R_Small R6
+L power-amp-rescue:R_Small-custom R6
 U 1 1 5CDE24A0
 P 3925 4425
 F 0 "R6" V 4050 4400 50  0000 C CNN
@@ -236,7 +236,7 @@ $EndComp
 Wire Wire Line
 	4025 4425 4500 4425
 $Comp
-L custom:R_Small R10
+L power-amp-rescue:R_Small-custom R10
 U 1 1 5CDE24AB
 P 4950 4900
 F 0 "R10" V 5075 4875 50  0000 C CNN
@@ -317,7 +317,7 @@ Wire Wire Line
 Wire Wire Line
 	3800 4425 3825 4425
 $Comp
-L custom:R_Small R4
+L power-amp-rescue:R_Small-custom R4
 U 1 1 5CDECF2B
 P 3525 3750
 F 0 "R4" H 3650 3800 50  0000 R CNN
@@ -450,7 +450,7 @@ F 3 "" H 6500 1025 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L custom:R_Small R1
+L power-amp-rescue:R_Small-custom R1
 U 1 1 5CE5DCAE
 P 1475 3600
 F 0 "R1" H 1625 3650 50  0000 R CNN
@@ -584,10 +584,8 @@ Wire Wire Line
 Connection ~ 7950 1025
 Wire Wire Line
 	7950 1025 7950 1075
-Text Notes 8950 875  0    50   ~ 0
-68u: A767MU107M1HLAE027
 $Comp
-L custom:R_Small R12
+L power-amp-rescue:R_Small-custom R12
 U 1 1 5CF69493
 P 5350 4525
 F 0 "R12" V 5475 4500 50  0000 C CNN
@@ -1035,11 +1033,11 @@ F 3 "~" H 9225 3075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L custom:R_Small R2
+L power-amp-rescue:R_Small-custom R2
 U 1 1 5CE64E43
 P 1950 1025
 F 0 "R2" H 2050 1000 50  0000 C CNN
-F 1 "1K 1W" H 2125 1075 50  0000 C CNN
+F 1 "2K 1W" H 2125 1075 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" H 1950 1025 50  0001 C CNN
 F 3 "" H 1950 1025 50  0001 C CNN
 F 4 "Vishay" H 1950 1025 50  0001 C CNN "Manufacturer"
@@ -1070,11 +1068,11 @@ Connection ~ 2025 900
 Wire Wire Line
 	2025 900  2025 925 
 $Comp
-L custom:R_Small R13
+L power-amp-rescue:R_Small-custom R13
 U 1 1 5CE83E7E
 P 3300 1250
 F 0 "R13" H 3400 1225 50  0000 C CNN
-F 1 "1K 1W" H 3475 1300 50  0000 C CNN
+F 1 "2K 1W" H 3475 1300 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" H 3300 1250 50  0001 C CNN
 F 3 "" H 3300 1250 50  0001 C CNN
 F 4 "Vishay" H 3300 1250 50  0001 C CNN "Manufacturer"
@@ -1083,11 +1081,11 @@ F 5 "CRCW1206470RFKEAHP" H 3300 1250 50  0001 C CNN "art Number"
 	-1   0    0    1   
 $EndComp
 $Comp
-L custom:R_Small R3
+L power-amp-rescue:R_Small-custom R3
 U 1 1 5CE844D1
 P 2025 1025
 F 0 "R3" H 2125 1000 50  0000 C CNN
-F 1 "1K 1W" H 2200 1075 50  0000 C CNN
+F 1 "2K 1W" H 2200 1075 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" H 2025 1025 50  0001 C CNN
 F 3 "" H 2025 1025 50  0001 C CNN
 F 4 "Vishay" H 2025 1025 50  0001 C CNN "Manufacturer"
@@ -1096,11 +1094,11 @@ F 5 "CRCW1206470RFKEAHP" H 2025 1025 50  0001 C CNN "art Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L custom:R_Small R14
+L power-amp-rescue:R_Small-custom R14
 U 1 1 5CE84735
 P 3400 1250
 F 0 "R14" H 3500 1225 50  0000 C CNN
-F 1 "1K 1W" H 3575 1300 50  0000 C CNN
+F 1 "2K 1W" H 3575 1300 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" H 3400 1250 50  0001 C CNN
 F 3 "" H 3400 1250 50  0001 C CNN
 F 4 "Vishay" H 3400 1250 50  0001 C CNN "Manufacturer"
